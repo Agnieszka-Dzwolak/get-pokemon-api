@@ -4,12 +4,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/style.css" />
-       
-        <title></title>
+
+        <title>Get Pokémon</title>
+        <link rel="icon" href="./assets/pokeball1.png" />
     </head>
     <body>
         <main>
-            
+            <div class="container-html">
+                <input
+                    type="number"
+                    id="input"
+                    placeholder="Enter a number between 1 and 1280"
+                />
+                <button type="button" id="btn">Get Pokémon</button>
+                <div id="root"></div>
+            </div>
         </main>
         <script type="module" src="./src/init.js"></script>
     </body>
