@@ -1,4 +1,5 @@
 import createAbilitiesList from './createAbilitiesList.js';
+import createStatisticsList from './createStatisticsList.js';
 
 const createPokemon = (pokemonData) => {
     //container
@@ -25,7 +26,22 @@ const createPokemon = (pokemonData) => {
     const abilitiesList = createAbilitiesList(pokemonData.abilities);
     abilities.append(abilitiesList);
 
-    container.append(name, img, abilities, abilitiesList);
+    //statistics - title
+    const statistics = document.createElement('h3');
+    statistics.innerText = 'Statistics:';
+
+    //statistics list
+    const statisticsList = createStatisticsList(pokemonData.stats);
+    statistics.append(statisticsList);
+
+    container.append(
+        name,
+        img,
+        abilities,
+        abilitiesList,
+        statistics,
+        statisticsList,
+    );
 
     return container;
 };
