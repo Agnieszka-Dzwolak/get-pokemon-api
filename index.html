@@ -9,17 +9,20 @@
         <link rel="icon" href="./assets/pokeball1.png" />
     </head>
     <body>
-        <main>
-            <div class="container-html">
+        <section>
+            <img class="logo" src="./assets/catch-pokemon-title.png" alt="" />
+
+            <div class="input-button">
                 <input
                     type="number"
                     id="input"
                     placeholder="Enter a number between 1 and 1280"
                 />
-                <button type="button" id="btn">Get Pokémon</button>
-                <div id="root"></div>
+                <button type="button" id="btn">Poké Search</button>
             </div>
-        </main>
+            <div id="root"></div>
+        </section>
+
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>

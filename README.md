@@ -1,22 +1,22 @@
-# Image gallery
+# Get Pokémon
 
-> A simple website ...
+> A simple website that allows the user to get a pokémon by id.
 
 ## Table of contents
 
-- [Image gallery](#image-gallery)
-	- [Table of contents](#table-of-contents)
-	- [General info](#general-info)
-	- [Screenshots](#screenshots)
-	- [Technologies](#technologies)
-	- [Setup](#setup)
-	- [Code Examples](#code-examples)
-	- [Status](#status)
+- [Get Pokémon](#get-pokémon)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Status](#status)
 
 ## General info
 
-> The objective of the project is to practice separation of concern in
-> JavaScript.
+> The objective of the project is to practice using get requests and apply
+> separation of concerns.
 
 ## Screenshots
 
@@ -27,7 +27,7 @@
 - JavaScript
 - HTML5
 - CSS3
-- VSC code
+- VS Code
 
 ## Setup
 
@@ -42,4 +42,3 @@ Clone the repo and run npm install.
 ## Status
 
 Project is: _in progress_
-# jokes-api
