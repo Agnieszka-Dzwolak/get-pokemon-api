@@ -30,7 +30,8 @@ section {
 }
 
 .logo {
-    height: 250px;
+    width: 520px;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -115,4 +116,59 @@ ul {
 
 li {
     margin: 5px 0;
+}
+
+@media screen and (max-width: 540px) {
+    .logo {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .logo {
+        width: 330px;
+        margin-top: 15px;
+    }
+
+    .input-button {
+        width: 330px;
+    }
+
+    #input {
+        width: 65%;
+        font-size: 0.75rem;
+    }
+
+    #btn {
+        width: 35%;
+        font-size: 0.85rem;
+    }
+
+    .pokemon-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 330px;
+    }
+
+    #name {
+        margin: 3px;
+    }
+
+    #img {
+        width: 200px;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        margin: 0px;
+    }
+
+    .stats {
+        margin-top: 30px;
+    }
+
+    li {
+        margin: 3px 0;
+    }
 }
